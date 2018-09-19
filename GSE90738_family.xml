@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Dong</First><Last>Wang</Last></Person>
+    <Email>dwang@biomed.tsinghua.edu.cn</Email>
+    <Organization>Tsinghua University</Organization>
+    <Address>
+      <Line>30 Shuangqing Road, Haidian District, Beijing 100084, China</Line>
+      <City>Beijing</City>
+      <Postal-Code>100084</Postal-Code>
+      <Country>China</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Person><First>Hao</First><Last>Li</Last></Person>
+    <Email>handanlihao-1@163.com</Email>
+    <Department>Department of Neurosurgery</Department>
+    <Organization>Beijing Tiantan Hospital, Capital Medical University</Organization>
+    <Address>
+      <Line>No.6 Tiantanxili</Line>
+      <City>Beijing</City>
+      <Postal-Code>100050</Postal-Code>
+      <Country>China</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Shasha</First><Last>Li</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Shuaishuai</First><Last>Teng</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Junquan</First><Last>Xu</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Guannan</First><Last>Su</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Jianqing</First><Last>Zhao</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Wenyan</First><Last>Qin</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Qianyong</First><Last>Zhu</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL20115">
+    <Status database="GEO">
+      <Submission-Date>2015-04-28</Submission-Date>
+      <Release-Date>2015-10-15</Release-Date>
+      <Last-Update-Date>2016-05-09</Last-Update-Date>
+    </Status>
+    <Title>Agilent-067406 Human CBC lncRNA + mRNA microarray V4.0 (Probe name version)</Title>
+    <Accession database="GEO">GPL20115</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>custom-commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Agilent</Manufacturer>
+    <Manufacture-Protocol>
+Manufacture protocol to see manufacturer's website
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+      </Column>
+      <Column position="2">
+        <Name>ControlType</Name>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+      </Column>
+      <Column position="4">
+        <Name>mRNA_ProbeName</Name>
+      </Column>
+      <Column position="5">
+        <Name>ProbeID</Name>
+      </Column>
+      <Column position="6">
+        <Name>SEQUENCE</Name>
+        <Description>probe sequence</Description>
+      </Column>
+      <Column position="7">
+        <Name>PrimaryAccession</Name>
+      </Column>
+      <Column position="8">
+        <Name>RefSeqAccession</Name>
+      </Column>
+      <Column position="9">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="10">
+        <Name>UniGeneID</Name>
+      </Column>
+      <Column position="11">
+        <Name>EntrezGeneID</Name>
+      </Column>
+      <Column position="12">
+        <Name>GeneSymbol</Name>
+      </Column>
+      <Column position="13">
+        <Name>GeneName</Name>
+      </Column>
+      <Column position="14">
+        <Name>EnsemblID</Name>
+      </Column>
+      <Column position="15">
+        <Name>TIGRID</Name>
+      </Column>
+      <Column position="16">
+        <Name>GO</Name>
+      </Column>
+      <Column position="17">
+        <Name>Description</Name>
+        <Description>Gene description</Description>
+      </Column>
+      <Column position="18">
+        <Name>GenomicCoordinates</Name>
+      </Column>
+      <Column position="19">
+        <Name>Cytoband</Name>
+      </Column>
+      <Column position="20">
+        <Name>lncRNA_ProbeName</Name>
+      </Column>
+      <Column position="21">
+        <Name>lncRNA ID</Name>
+      </Column>
+      <Column position="22">
+        <Name>Chromosome</Name>
+      </Column>
+      <Column position="23">
+        <Name>Strand</Name>
+      </Column>
+      <Column position="24">
+        <Name>Start</Name>
+      </Column>
+      <Column position="25">
+        <Name>End</Name>
+      </Column>
+      <Column position="26">
+        <Name>cdsstart</Name>
+      </Column>
+      <Column position="27">
+        <Name>cdsend</Name>
+      </Column>
+      <Column position="28">
+        <Name>exoncount</Name>
+      </Column>
+      <Column position="29">
+        <Name>exonstart</Name>
+      </Column>
+      <Column position="30">
+        <Name>exonend</Name>
+      </Column>
+      <Column position="31">
+        <Name>gene</Name>
+      </Column>
+      <Column position="32">
+        <Name>DESCRIPTION</Name>
+        <Description>Gene description</Description>
+      </Column>
+      <Column position="33">
+        <Name>alias</Name>
+      </Column>
+      <Column position="34">
+        <Name>known lncRNA name</Name>
+      </Column>
+      <Column position="35">
+        <Name>class</Name>
+      </Column>
+      <Column position="36">
+        <Name>database</Name>
+      </Column>
+      <Column position="37">
+        <Name>Sense</Name>
+      </Column>
+      <Column position="38">
+        <Name>Antisense</Name>
+      </Column>
+      <Column position="39">
+        <Name>Intronic</Name>
+      </Column>
+      <Column position="40">
+        <Name>Bidirectional</Name>
+      </Column>
+      <Column position="41">
+        <Name>Intergenic(10k)</Name>
+      </Column>
+    <External-Data rows="75217">
+GPL20115-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM2411629">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 1 1N_1T</Title>
+    <Accession database="GEO">GSM2411629</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411629/suppl/GSM2411629_1N_1T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411630">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 2 2N_2T</Title>
+    <Accession database="GEO">GSM2411630</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411630/suppl/GSM2411630_2N_2T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411631">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 3 3N_3T</Title>
+    <Accession database="GEO">GSM2411631</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411631/suppl/GSM2411631_3N_3T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411632">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 4 4N_4T</Title>
+    <Accession database="GEO">GSM2411632</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411632/suppl/GSM2411632_4N_4T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411633">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 5 5N_5T</Title>
+    <Accession database="GEO">GSM2411633</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411633/suppl/GSM2411633_5N_5T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411634">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 8 8N_8T</Title>
+    <Accession database="GEO">GSM2411634</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411634/suppl/GSM2411634_8N_8T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411635">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 10 10N_10T</Title>
+    <Accession database="GEO">GSM2411635</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411635/suppl/GSM2411635_10N_10T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411636">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 16 16N_16T</Title>
+    <Accession database="GEO">GSM2411636</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411636/suppl/GSM2411636_16N_16T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411637">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 17 17N_17T</Title>
+    <Accession database="GEO">GSM2411637</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411637/suppl/GSM2411637_17N_17T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Sample iid="GSM2411638">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-03-01</Last-Update-Date>
+    </Status>
+    <Title>Patient 9 9N_9T</Title>
+    <Accession database="GEO">GSM2411638</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>2</Channel-Count>
+    <Channel position="1">
+      <Source>cervical tumor</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+cervical tumor
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy5</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Channel position="2">
+      <Source>adjacent normal</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+adjacent normal
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+UHRR was bought from Agilent,HBRR was bought from Ambion.tumor samples and normal tissues were collected from the Oncology Department of the Second Affiliated Hospital of Zhen Zhou University by related surgeons. Plasma samples were isolated by EDTA and centrifuged at 820 ×g for 10 min. The postoperative samples were collected 2 to 34 days after surgery.
+      </Extract-Protocol>
+      <Label>Cy3</Label>
+      <Label-Protocol>
+5ug isolated total RNA was treated with Rnase R (Epicentre, Madison, WI) to remove linear RNA. cDNA labeled with a fluorescent dye (Cy3-dCTP) was produced by Eberwine’s linear RNA amplification method and subsequent enzymatic reaction41, and the procedure has been improved by using CapitalBio circRNA Amplification and Labeling Kit (CapitalBio, Beijing) for producing higher yields of labeled cDNA. In detail, double-stranded cDNAs (containing the T7 RNA polymerase promoter sequence) were synthesized from 0.2 μg total RNA using the CbcScript reverse transcriptase with cDNA synthesis system according to the manufacturer’s protocol (Capitalbio, Beijing) with the T7 Oligo (dN). After completion of double-stranded cDNA (dsDNA) synthesis using DNA polymerase and RNase H, the dsDNA products about 12.5μL were subjected to 40μL in vitro transcription reactions at 37℃ for 14 h using a T7 Enzyme Mix. The amplified cRNA was purified using the RNA Clean-up Kit (MACHEREY - NAGEL, Germany). Klenow enzyme labeling strategy was adopted after reverse transcription using reverse transcriptase. Labeled cDNA was purified with a PCR NucleoSpin Extract II Kit (MACHEREY - NAGEL, Germany) and re-suspended in elution buffer.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+27.5 μL of labeled samples were dissolved in 82.5 μL hybridization solution containing 3×SSC, 0.2% SDS, 5×Denhardt’s solution and 25% formamide. DNA in hybridization solution was denatured at 95℃ for 3 min prior to loading onto a the CapitalBio circRNA Human Gene Expression Microarray V1.0 (4x90K, CapitalBio, Beijing). Arrays hybridization were performed in a Agilent Hybridization Oven overnight at a rotation speed of 20 rpm and a temperature of 42℃ and washed with two consecutive solutions (0.2% SDS, 2× SSC at 42℃ for 5 min, and 0.2× SSC for 5 min at room temperature).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+After washing the slides, the arrays were scanned by the Agilent Scanner G2565CA (Agilent, Santa Clara, CA). Acquired array images were analyzed by Agilent Feature Extraction (v10.7) software.
+    </Scan-Protocol>
+    <Description>
+in the raw data file,gProcessedSignal represented Normal
+in the raw data file, rProcessedSignal represented Tumor
+    </Description>
+    <Data-Processing>
+Microarray data was extracted using Agilent Feature Extraction software. Data summarization, quantile normalization, quality control and most of the subsequent data processing were executed using GeneSpring software V12.0 (Agilent, Santa Clara, CA) or R software package. Raw and processed files were filtered to remove lncRNA probes.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20115" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2411nnn/GSM2411638/suppl/GSM2411638_9N_9T_mRNA_raw.txt.gz
+    </Supplementary-Data>
+  </Sample>
+
+  <Series iid="GSE90738">
+    <Status database="GEO">
+      <Submission-Date>2016-12-01</Submission-Date>
+      <Release-Date>2018-03-01</Release-Date>
+      <Last-Update-Date>2018-05-31</Last-Update-Date>
+    </Status>
+    <Title>Circular RNAs are super abundant in cervical tumor and plasma detected by high throughput microarray [cervical_cancer_mRNA]</Title>
+    <Accession database="GEO">GSE90738</Accession>
+    <Pubmed-ID>29415187</Pubmed-ID>
+    <Summary>
+Circular RNAs (circRNAs) are a new class of endogenous and regulatory non-coding RNAs, but their expressions in tumor and plasma are largely unknown. Here, our study firstly suggested that microarray should be more efficient than RNA sequencing for circRNA profiling. Then, we detected ~80,000 circRNAs expressed in cervical tumors and matched normal tissues by microarray, and ~23,000 of them are differently expressed. The numbers of up- and down-regulated circRNAs during tumorigenesis are almost equal. In addition, we discovered that the expression of different circRNA isoforms from the same linear RNA also different. Strikingly, as much as ~18,000 circRNAs could be robustly detected in plasmas, and ~8,000 circRNAs show different expression after surgery of tumor removal. Altogether, taking advantage of the huge number of circRNAs detected in tumor and plasma, we provide strong evidence for circRNA expression, regulation and potential clinical application as non-invasive biomarkers.
+    </Summary>
+    <Overall-Design>
+The circRNA expression in Universal Human Reference RNA (UHRR, 2 replicated samples) was compared to circRNA expression in Ambion’s Human Brain Reference total RNA (HBRR, 2 replicated samples) from the Microarray Quality Control (MAQC) project; The circRNA expression in cervical tumor (10 samples) was compared to circRNA expression in adjacent normal tissue (control, 10 samples) of 10 patients; The mRNA expression in cervical tumor (10 samples) was compared to mRNA expression in adjacent normal tissue(control, 10 samples) of 10 patients; The circRNA expression in preoperative plasma samples (control,7 samples) was compared to circRNA expression in postoperative plasma samples (14 samples) of 8 out of 10 cervical cancer patients. Microarray based circRNA expression profiles were acquired using CapitalBio circRNA Human Gene Expression Microarray V1.0 screening for 87,935 distinct human circRNA candidates.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contributor-Ref ref="contrib5" position="3" />
+    <Contributor-Ref ref="contrib6" position="4" />
+    <Contributor-Ref ref="contrib7" position="5" />
+    <Contributor-Ref ref="contrib8" position="6" />
+    <Contributor-Ref ref="contrib9" position="7" />
+    <Contributor-Ref ref="contrib1" position="8" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM2411629" />
+    <Sample-Ref ref="GSM2411630" />
+    <Sample-Ref ref="GSM2411631" />
+    <Sample-Ref ref="GSM2411632" />
+    <Sample-Ref ref="GSM2411633" />
+    <Sample-Ref ref="GSM2411634" />
+    <Sample-Ref ref="GSM2411635" />
+    <Sample-Ref ref="GSM2411636" />
+    <Sample-Ref ref="GSM2411637" />
+    <Sample-Ref ref="GSM2411638" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90738/suppl/GSE90738_RAW.tar
+    </Supplementary-Data>
+    <Supplementary-Data type="XLSX">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90738/suppl/GSE90738_cervical_cancer_mRNA_processed.xlsx
+    </Supplementary-Data>
+    <Relation type="SubSeries of" target="GSE90741" />
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA355650" />
+  </Series>
+
+</MINiML>
